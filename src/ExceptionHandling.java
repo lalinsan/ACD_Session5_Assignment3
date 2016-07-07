@@ -24,7 +24,7 @@ public class ExceptionHandling {
 		
 		catch (ArrayIndexOutOfBoundsException e) //Catch unexpected exception
 		{
-			System.out.println("Array Out of Bounds"); //Displays error message when the Array Exception Out of Bonds is caught
+			System.out.println("Array Out of Bounds: " +e.getMessage()); //Displays error message when the Array Exception Out of Bonds is caught
 		}	
 	}
 }
